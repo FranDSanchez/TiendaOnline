@@ -34,13 +34,17 @@ li {
 }
 .navbar-brand {
   font-size: 2rem;
-  color: rgb(255, 0, 157);
+  color: rgba(255, 111, 0, 0.737);
 }
 .form-control {
   font-size: 1.1rem;
 }
 .btn {
   --bs-btn-font-size: 1.1rem;
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: rgb(89, 89, 89) !important;
 }
 @media screen and (max-width: 767px) {
   header {
@@ -60,10 +64,10 @@ li {
   }
   .navbar-brand {
     font-size: 4rem;
-    color: rgb(255, 0, 157);
+    color: rgba(255, 111, 0, 0.737);
   }
   ul {
-    background-color: white;
+    background-color: rgb(158, 158, 158);
   }
 }
 /* -- Main -- */
